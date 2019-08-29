@@ -15,57 +15,57 @@ function preload() {
     //=================================================================== Main
 
     playerAnimation = loadAnimation(
-        "../assets/character/main/00gamedesigncharacter2.png",
-        "../assets/character/main/01gamedesigncharacterwalkf1s.png",
-        "../assets/character/main/02gamedesigncharacterwalkf2s.png",
-        "../assets/character/main/01gamedesigncharacterwalkf1s.png",
-        "../assets/character/main/00gamedesigncharacter2.png",
-        "../assets/character/main/01gamedesigncharacterwalkf1.png",
-        "../assets/character/main/02gamedesigncharacterwalkf2.png",
-        "../assets/character/main/01gamedesigncharacterwalkf1.png"
+        "../assets/00gamedesigncharacter2.png",
+        "../assets/01gamedesigncharacterwalkf1s.png",
+        "../assets/02gamedesigncharacterwalkf2s.png",
+        "../assets/01gamedesigncharacterwalkf1s.png",
+        "../assets/00gamedesigncharacter2.png",
+        "../assets/01gamedesigncharacterwalkf1.png",
+        "../assets/02gamedesigncharacterwalkf2.png",
+        "../assets/01gamedesigncharacterwalkf1.png"
     );
 
     playerStand = loadAnimation(
-        "../assets/character/main/00gamedesigncharacter2.png"
+        "../assets/00gamedesigncharacter2.png"
     );
 
     playerPuke = loadAnimation(
-        "../assets/character/sneeze-animation/spitadult1.png",
-        "../assets/character/sneeze-animation/spitadult1.png",
-        "../assets/character/sneeze-animation/spitadult2.png",
-        "../assets/character/sneeze-animation/spitadult2.png",
-        "../assets/character/sneeze-animation/spitadult3.png",
-        "../assets/character/sneeze-animation/spitadult3.png",
-        "../assets/character/sneeze-animation/spitadult4.png",
-        "../assets/character/sneeze-animation/spitadult4.png"
+        "../assets/spitadult1.png",
+        "../assets/spitadult1.png",
+        "../assets/spitadult2.png",
+        "../assets/spitadult2.png",
+        "../assets/spitadult3.png",
+        "../assets/spitadult3.png",
+        "../assets/spitadult4.png",
+        "../assets/spitadult4.png"
     );
 
     //=================================================================== Adult
     adultAnimation = loadAnimation(
-        "../assets/character/adult/gamedesignadult2.png",
-        "../assets/character/adult/gamedesignadultwalkf1.png",
-        "../assets/character/adult/gamedesignadultwalkf2.png",
-        "../assets/character/adult/gamedesignadultwalkf1.png",
-        "../assets/character/adult/gamedesignadult2.png",
-        "../assets/character/adult/gamedesignadultwalkf1s.png",
-        "../assets/character/adult/gamedesignadultwalkf2s.png",
-        "../assets/character/adult/gamedesignadult2.png"
+        "../assets/gamedesignadult2.png",
+        "../assets/gamedesignadultwalkf1.png",
+        "../assets/gamedesignadultwalkf2.png",
+        "../assets/gamedesignadultwalkf1.png",
+        "../assets/gamedesignadult2.png",
+        "../assets/gamedesignadultwalkf1s.png",
+        "../assets/gamedesignadultwalkf2s.png",
+        "../assets/gamedesignadult2.png"
     );
 
     adultStand = loadAnimation(
-        "../assets/character/adult/gamedesignadult2.png"
+        "../assets/gamedesignadult2.png"
     );
     //=================================================================== Kid 
     //=================================================================== Old
     //=====================Level1
-    track = loadAnimation("../assets/lvl1/gamedesignemptytrack.png");
-    stopper = loadAnimation("../assets/lvl1/gamedesignemptystopper.png");
-    train = loadAnimation("../assets/lvl1/gamedesignemptytracktrain.png");
-    ticket = loadAnimation("../assets/lvl1/gamedesignemptyticketmachine.png");
+    track = loadAnimation("../assets/gamedesignemptytrack.png");
+    stopper = loadAnimation("../assets/gamedesignemptystopper.png");
+    train = loadAnimation("../assets/gamedesignemptytracktrain.png");
+    ticket = loadAnimation("../assets/gamedesignemptyticketmachine.png");
     //=====================Level2
-    bg = loadAnimation("../assets/lvl2/backgroundlvl2.png");
-    bench = loadAnimation("../assets/lvl2/benchlvl2.png");
-    lake = loadAnimation("../assets/lvl2/lakelvl2.png");
-    tree = loadAnimation("../assets/lvl2/treeslvl2.png");
-    way = loadAnimation("../assets/lvl2/waylvl2.png");
+    bg = loadAnimation("../assets/backgroundlvl2.png");
+    bench = loadAnimation("../assets/benchlvl2.png");
+    lake = loadAnimation("../assets/lakelvl2.png");
+    tree = loadAnimation("../assets/treeslvl2.png");
+    way = loadAnimation("../assets/waylvl2.png");
 }

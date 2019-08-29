@@ -18,7 +18,7 @@ function setup() {
 //=======================================================================
 
 function draw() {
-    if (keyCode === 32) {
+    if (keyCode === 75) {
         start = true
         this.document.getElementById("intro").style.display = "none";
     }
