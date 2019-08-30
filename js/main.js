@@ -8,7 +8,7 @@ let start = false;
 function setup() {
     let canvas = createCanvas(WIDTH, HEIGHT);
     canvas.parent("gameBoard")
-    borderBackground = loadImage("../assets/gamedesignbackground.png");
+    borderBackground = loadImage("assets/gamedesignbackground.png");
     //============================
     game.setup();
     //============================
