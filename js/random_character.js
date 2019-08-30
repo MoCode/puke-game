@@ -1,6 +1,6 @@
 class Adult {
     constructor(x, y) {
-        this.x = 200;
+        this.x = 400;
         this.y = 30;
         this.alive = true;
     }

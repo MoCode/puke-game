@@ -55,7 +55,7 @@ class Level_1 {
 
         if (this.adults.filter(function (adult) {
                 if (adult.alive == true) return true
-            }).length <= 30) {
+            }).length <= 25) {
             game.currentLevel = 2
         }
 
